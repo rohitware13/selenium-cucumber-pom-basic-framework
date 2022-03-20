@@ -8,11 +8,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "pretty",
-                },
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         glue = {"steps","config"},
         features = {"src/test/resources/FeatureFiles"},
-        tags = {"@first"}
+        tags = "@first"
 )
 public class RunnerClass {
 

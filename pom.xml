@@ -31,12 +31,6 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-junit</artifactId>
-            <version>4.8.0</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.typesafe/config -->
         <dependency>
@@ -45,12 +39,6 @@
             <version>1.4.1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>4.1.1</version>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
@@ -59,11 +47,7 @@
             <version>1.7.32</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports-cucumber4-adapter</artifactId>
-            <version>1.0.11</version>
-        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
         <dependency>
@@ -77,6 +61,53 @@
             <version>1.2.3</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>6.8.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>6.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>6.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/gherkin -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>15.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-jvm</artifactId>
+            <version>6.8.1</version>
+            <type>pom</type>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber6-adapter</artifactId>
+            <version>2.10.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

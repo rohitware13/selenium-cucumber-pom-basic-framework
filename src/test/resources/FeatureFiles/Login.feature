@@ -8,7 +8,7 @@ Feature: As a user
     When the user enters valid login credentials
     Then the user should redirect to dashboard
 
-  @first
+  @first1
   Scenario: User logs in successfully with valid credentials
     Given the application is opened in browser
     When the user enters valid login credentials
